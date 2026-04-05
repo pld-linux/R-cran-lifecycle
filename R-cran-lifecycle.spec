@@ -4,7 +4,7 @@
 Summary:	Manage the life cycle of your package functions
 Name:		R-cran-%{modulename}
 Version:	1.0.5
-Release:	1
+Release:	2
 License:	MIT
 Group:		Applications/Math
 Source0:	https://cran.r-project.org/src/contrib/%{modulename}_%{fversion}.tar.gz
@@ -15,7 +15,6 @@ BuildRequires:	R-cran-cli
 BuildRequires:	R-cran-glue
 BuildRequires:	R-cran-rlang >= 1.1.0
 Requires:	R
-BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
